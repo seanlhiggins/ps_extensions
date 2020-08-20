@@ -1,7 +1,7 @@
 project_name: "extensions_shiggins"
 
-application: kitchensink {
-  label: "Kitchen sink"
+application: tutorial_app {
+  label: "Tutorial App"
   url: "http://localhost:3000/bundle.js"
   entitlements: {
     local_storage: yes
