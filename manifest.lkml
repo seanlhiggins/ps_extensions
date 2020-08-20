@@ -14,3 +14,13 @@ application: kitchensink {
     oauth2_urls: ["https://accounts.google.com/o/oauth2/v2/auth", "https://github.com/login/oauth/authorize", "https://dev-5eqts7im.auth0.com/authorize", "https://dev-5eqts7im.auth0.com/login/oauth/token", "https://github.com/login/oauth/access_token"]
   }
 }
+
+application: data-portal {
+  label: "Data Portal"
+  file: "dist/data_portal.js"
+  entitlements: {
+    allow_same_origin: yes
+    allow_forms: yes
+    core_api_methods: ["me","all_user_attributes","user_attribute_user_values", "board"]
+  }
+}
