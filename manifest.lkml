@@ -17,7 +17,7 @@ application: kitchensink {
 
 application: data-portal {
   label: "Data Portal"
-  file: "http://localhost:8080/bundle.js"
+  file: "dist/data_portal.js"
   entitlements: {
     allow_same_origin: yes
     allow_forms: yes
